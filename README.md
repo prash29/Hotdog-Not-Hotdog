@@ -39,4 +39,3 @@ Personal implementation of HBO Silicon Valley's app Not Hotdog ( Identifies if a
     **Result**
     * hotdog  =  0.99714
     * not hotdog  =  0.00286
-    
