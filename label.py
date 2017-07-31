@@ -6,7 +6,11 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 input_layer = 'DecodeJpeg/contents:0'
 output_layer = 'final_result:0'
+
+#Reading Image data from command line argument
 image = tf.gfile.FastGFile(sys.argv[1], 'rb').read()
+
+#Reading labels file
 labels = [line.rstrip() for line in tf.gfile.GFile("labels_hotdog.txt")]
 with tf.gfile.FastGFile("graph_hotdog.pb", 'rb') as f:
     g_def = tf.GraphDef()
