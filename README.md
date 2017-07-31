@@ -19,8 +19,9 @@ Personal implementation of HBO Silicon Valley's app Not Hotdog ( Identifies if a
    
    
    
-   * *(Wait for the prediction)
-    **Result**
+   * (Wait for the prediction)
+ 
+   **Result**
     * not hotdog  =  0.98556
     * hotdog  =  0.01444
    
@@ -32,7 +33,7 @@ Personal implementation of HBO Silicon Valley's app Not Hotdog ( Identifies if a
    
    ![2. Hotdog](https://github.com/prash29/Hotdog-Not-Hotdog/blob/master/Test%20images/hotdog1.jpeg)
    
-   *  *(Wait for the prediction)
+   *  (Wait for the prediction)
    
    
     **Result**
