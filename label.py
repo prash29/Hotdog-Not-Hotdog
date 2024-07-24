@@ -8,7 +8,7 @@ input_layer = 'DecodeJpeg/contents:0'
 output_layer = 'final_result:0'
 
 #Reading Image data from command line argument
-image = tf.gfile.FastGFile(sys.argv[1], 'rb').read()
+image = tf.oi.gfile.FastGFile(sys.argv[1], 'rb').read()
 
 #Reading labels file
 labels = [line.rstrip() for line in tf.gfile.GFile("labels_hotdog.txt")]
